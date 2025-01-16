@@ -1,0 +1,16 @@
+import time
+# currentTime=int(time.strftime('%H:%M:%S'))
+hours=int(time.strftime('%H'))
+minute=int(time.strftime('%M'))
+second=int(time.strftime('%S'))
+if(4<hours<12):
+    print("Goodmorning sir")
+
+elif(12<hours<6):
+    print("Goodafternoon sir")
+
+elif(6<hours<12):
+print("goodevening sir")
+else: print("goodnight sir")
+print(time.strftime('%H:%M:%S'))
+
